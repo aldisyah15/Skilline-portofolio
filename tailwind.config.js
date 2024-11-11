@@ -7,14 +7,32 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Patrick Hand', 'sans-serif']
+      Poppins: ['Poppins', 'sans-serif']
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": "/image/background.png"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        slider: "slider 10s infinite ease-in-out"
+      },
+      keyframes : {
+        slider: {
+          "0%" : {
+            transform: "translateX(0%)",
+          },
+          "100%" : {
+             transform: "translateX(-100%)"
+          }
+        }
+      }
     },
   },
-  plugins: [],
+  plugins: [
+   
+  ],
 };
