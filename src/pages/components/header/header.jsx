@@ -54,7 +54,7 @@ export default function Header() {
       </div>
 
       {/* Navigasi */}
-      <div className="flex flex-col items-center md:flex-row  md:absolute md:right-0 md:top-0 md:mt-7 ">
+      <div className="flex flex-col items-center md:flex-row  md:absolute md:right-0 md:top-0 md:mt-7 text-black">
 
         <div className="mt-32 md:mt-0">
           <ul className="grid gap-y-8 md:flex md:gap-x-8 ">

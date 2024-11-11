@@ -34,7 +34,7 @@ export default function HeaderContent() {
             </div>
 
             <div>
-              <p className="mt-6 text-center">Watch how it works</p>
+              <p className="mt-6 text-center text-black">Watch how it works</p>
             </div>
           </div>
         </div>
